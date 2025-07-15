@@ -1,4 +1,4 @@
-# 🧠 Curso - Java Virado no Jiraya 
+# <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="html5 logo"  /> Curso - Java Virado no Jiraya  
 
 Este repositório foi criado para centralizar **códigos-fonte**, **desafios resolvidos**, **anotações** e outros materiais produzidos ao longo do meu aprendizado em **Java**.
 
@@ -34,3 +34,10 @@ git init
 ```bash
 git clone https://github.com/arthurgomes77/Java--Jiraya.git
 ```
+
+## Tecnologias e Linguagens
+<p style="padding: 10px">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="40" alt="github logo"/>
+</p>
