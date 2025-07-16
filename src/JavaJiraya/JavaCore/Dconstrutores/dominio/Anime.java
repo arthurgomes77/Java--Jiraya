@@ -5,29 +5,36 @@ public class Anime {
     private String tipo;
     private int episodios;
     private String genero;
+    private String estudio;
 
     public Anime(String nome, String tipo, int episodios, String genero){
-        System.out.println("Dentro do construtor");
+        this();
+        System.out.println("Segundo construtor");
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
         this.genero = genero;
+    }
+    public Anime(String nome, String tipo, int episodios, String genero, String estudio){
+        this(nome, tipo, episodios, genero);
+        System.out.println("Terceiro construtor");
+        this.nome = nome;
+        this.tipo = tipo;
+        this.episodios = episodios;
+        this.genero = genero;
+        this.estudio = estudio;
     }
 
-    public void init(String nome, String tipo, int episodios){
-        this.nome = nome;
-        this.tipo = tipo;
-        this.episodios = episodios;
+    public Anime() {
+        System.out.println("Primeiro construtor, vazio");
     }
-    public void init(String nome, String tipo, int episodios, String genero){
-        this.init(nome, tipo, episodios);
-        this.genero = genero;
-    }
+
     public void imprimir(){
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
+        System.out.println(this.estudio);
     }
 
     public void setTipo(String tipo){
