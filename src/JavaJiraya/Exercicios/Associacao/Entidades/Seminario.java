@@ -43,11 +43,9 @@ public class Seminario {
             return;
         }
         for (int i = 0; i < alunos.length; i++) {
-            for (Aluno aluno : alunos) {
                 System.out.printf("%s. %s\n", (i + 1), alunos[i].getNome());
-            }
         }
-        System.out.println("Local: " + local.getEndereco() + "\n");
+        System.out.println("\nLocal: " + local.getEndereco() + "\n");
 
     }
 }

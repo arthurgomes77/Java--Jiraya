@@ -34,7 +34,7 @@ public class Professor {
 
 
     public void imprimir(){
-        System.out.println("=====PROFESSOR=====");
+        System.out.println("\n=====PROFESSOR=====");
         System.out.printf("Professor : '%s' - Especialidade: %s\n", this.nome, this.especialidade);
         System.out.println("Ministrante nos Seminarios:");
         for (Seminario seminarios: seminario){

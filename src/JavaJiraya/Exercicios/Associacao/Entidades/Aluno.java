@@ -33,7 +33,7 @@ public class Aluno {
     public void imprimir(){
         System.out.println("=====ALUNO=====");
         System.out.println("Nome: " + getNome());
-        System.out.println("Idade: " + getIdade());
+        System.out.println("Idade: " + getIdade() + "\n");
         if (seminario.length > 1){
             System.out.println("O aluno pode participar de apenas UM seminário...");
             return;
