@@ -32,7 +32,6 @@ public class Professor {
         return especialidade;
     }
 
-
     public void imprimir(){
         System.out.println("\n=====PROFESSOR=====");
         System.out.printf("Professor : '%s' - Especialidade: %s\n", this.nome, this.especialidade);
