@@ -4,6 +4,8 @@ public abstract class Funcionario extends Pessoa{
     protected String nome;
     protected double salario;
 
+    public abstract void descontoSalarial(double salario, double imposto);
+
     public Funcionario(String nome, double salario) {
         this.nome = nome;
         this.salario = salario;
@@ -15,4 +17,5 @@ public abstract class Funcionario extends Pessoa{
     public void imprime() {
         System.out.println("Imprimindo");
     }
+
 }

@@ -1,24 +1,15 @@
 package JavaJiraya.JavaCore.Npolimorfismo.dominio;
 
 public class Tomate extends Produto{
-    public static final double IMPOSTO_PORCENTAGEM = 0.06;
-    public static String DataValidade;
+    public static final double IMPOSTO = 0.06;
 
     public Tomate(String nome, double valor) {
         super(nome, valor);
     }
 
     @Override
-    public Double calcularImposto() {
-        System.out.println("Calculando imposto do tomate");
-        return this.valor * IMPOSTO_PORCENTAGEM;
-    }
-
-    public String getDataValidade() {
-        return DataValidade;
-    }
-
-    public static void setDataValidade(String dataValidade) {
-        DataValidade = dataValidade;
+    public double calcularImpostos() {
+        System.out.println("Calculando impostos do Tomate");
+        return this.valor * IMPOSTO;
     }
 }

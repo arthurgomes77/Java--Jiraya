@@ -18,4 +18,9 @@ public class Gerente extends Funcionario{
                 '}';
     }
 
+    @Override
+    public void descontoSalarial(double salario, double imposto) {
+
+    }
+
 }

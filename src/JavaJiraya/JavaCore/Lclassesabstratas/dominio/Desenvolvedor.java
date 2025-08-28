@@ -17,4 +17,9 @@ public class Desenvolvedor extends Funcionario{
                 ", salario=" + salario +
                 '}';
     }
+
+    @Override
+    public void descontoSalarial(double salario, double imposto) {
+
+    }
 }
