@@ -16,7 +16,4 @@ public class ExceptionTeste01 {
             e.printStackTrace();
         }
     }
-
-    public static class RuntimeExceptionTeste02 {
-    }
 }
